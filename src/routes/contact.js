@@ -41,7 +41,7 @@ export default function Contact() {
                 {contact.twitter && (<p><a target="_blank" href={`https://twitter.com/${contact.twitter}`}>{contact.twitter}</a></p>)}
 
                 {contact.notes && <p>{contact.notes}</p>}
-
+                
                 <div>
                     <Form action="edit">
                         <button type="submit">Edit</button>
